@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('https://www.hdwallpapers.in/download/blurred_colors-1440x900.jpg');
+    background-attachment: fixed;
+}
+#nav-icon{
+    width:auto ;
+    height: 4rem;
+    border-radius: 10px;
+}
+#btn-subscribe-log{
+    padding: 6px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29, 231, 238);
+    text-decoration: none;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(5, 19, 93); 
+}
+.nav-end-container{
+    display: flex;
+    flex: wrap;
+    width: 50%;
+    
+    justify-content:flex-end;
+}
+.nav-container div a{
+    color: white;
+    text-decoration: none;
+
+} 
+
+#item8,#item7{
+    margin-left: 20px;
+}
+#item6{
+    margin-right: 50px;
+}
+
+.section-image-wrapper{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+.section-image-wrapper div{
+    width: 45%;
+    
+    
+}
+
+
+.wrapper-image{
+    transition-property: width,height,margin-left;
+    transition-duration: 2s;
+    position: relative;
+    
+    width: 60%;
+    height: 26rem;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+.wrapper-image:hover{
+    
+    margin-left: 0%;
+    width: 100%;
+    height: 30rem;
+}
+.section-movies-container{
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.section-movies-container div{
+    
+    width: 16%;
+    height: 21rem;
+    border-radius: 8px;
+}
+#movies-heading{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    
+}
+.section-movies-container div a img{
+    transition-property: padding ,border-radius;
+    transition-duration: 1s;
+    width:100%;
+    height: 21rem;
+    border-radius: 5px;
+    padding: 20px 10px;
+
+}
+.section-movies-container div a{
+    text-decoration: none;
+}
+.movie-title{
+    transition-property: top,left;
+    transition-duration: 50ms;
+    z-index: 1;
+    top: -80px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    position:relative;
+}
+
+
+.section-movies-container div a img:hover{
+    
+   padding: 0px 0px;
+    border-radius: 8px;
+
+}
